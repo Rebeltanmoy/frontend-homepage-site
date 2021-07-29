@@ -5,26 +5,599 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Third Project (Honda-CBR) by bootstrap</title>
+    <title>Third Project (Honda-City) by bootstrap</title>
 
-    <!-- Bootstrap Link -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="custom-css/custom-style.css">
-
+    <!-- CSS-Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Style-Sheet-CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/09369e687f.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="font-style">
+    <!-- Header-Start -->
+    <header class="background-color">
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-4">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="#">About-Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="#">Contact</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar end -->
+
+
+        <div class="container mt-5">
+            <div class="row d-flex  align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="text-white mt-3">Honda CBR 300R</h1>
+
+                    <h6 class="text-white mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                        sint.
+                        Velit officia
+                        consequat
+                        duis enim velit mollit.Exercitation veniam consequat sunt nostrud amet.
+                    </h6>
+
+
+                    <!-- <div class="btn btn-color mt-4">Purchase</div> -->
+
+                    <!-- modal -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-color mt-4" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal..... -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title" id="exampleModalLabel">Log-in</h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mt-5">
+                    <div>
+                        <img class="w-100" src="images/header-bike.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Mani Start...... -->
+    <main>
+
+        <!-- Fetured Bikes 2021  -->
+        <section class="container my-5">
+            <div class=" my-5 text-center">
+                <h1> Fetured Bikes 2021 </h1>
+                <h6><span>Best bike collection</span></h6>
+            </div>
+
+            <!-- bikes Folders....  -->
+
+
+            <div class="row my-3 d-flex  align-items-center ">
+                <div class="col-lg-4 col-md-6 col-12 card-size">
+                    <div class=" text-center grayscale">
+                        <img style="width: 280;" height="240" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 card-size">
+                    <div class="text-center">
+                        <img style="width: 280;" height="240" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 card-size">
+                    <div class=" text-center grayscale">
+                        <img style="width: 280;" height="240" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <!-- Happy Clients says -->
+
+        <section class="container my-5">
+
+            <div class="text-center my-5">
+                <h1>Happy <span>Clients says</span> </h1>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card p-4 border border-3 text-center sahdow "">
+                        <div class=" m-3">
+                        <div class=" text-center">
+                            <img src=" images/user-1.png" class="card-img-top user-size" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0 ">
+
+                            <li class="list-group-item border-0 d-flex justify-content-center">
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star  "></i>
+                            </li>
+                            <li class="list-group-item border-0">
+                                <p>Regina Miles</p>
+                            </li>
+                            <li class="list-group-item border-0">Banker</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card p-4 border border-3 text-center sahdow ">
+                    <div class=" m-3">
+                        <div class=" text-center">
+                            <img src=" images/user-2.png" class="card-img-top user-size" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0 ">
+
+                            <li class="list-group-item border-0 d-flex justify-content-center">
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star  "></i>
+                            </li>
+
+                            <li class="list-group-item border-0">
+                                <p>Regina Miles</p>
+                            </li>
+                            <li class="list-group-item border-0">Banker</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card p-4 border border-3 text-center sahdow ">
+                    <div class=" m-3">
+                        <div class=" text-center">
+                            <img src="images/user-3.jpg" class="card-img-top user-size img-size" alt="...">
+                        </div>
+                        <div class="card-body text-center">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0 ">
+
+                            <li class="list-group-item border-0 d-flex justify-content-center">
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star four-star "></i>
+                                <i class="fas fa-star  "></i>
+                            </li>
+                            <li class="list-group-item border-0">
+                                <p>Regina Miles</p>
+                            </li>
+                            <li class="list-group-item border-0">Banker</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+
+        </section>
+        <!--Happy Clients End........ -->
+
+
+        <!-- Frequently Askes.............  -->
+        <section class="container my-5">
+            <div class="text-center">
+                <h1>Frequently Asked <span>Questions</span></h1>
+            </div>
+
+            <div class="row my-5 d-flex align-items-center ">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="text-center w-100 ">
+                        <img class="img-fluid" src="images/faq.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 my-5">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item my-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4>What are the most important things I should
+                                        know about riding a bike?</h4>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                        and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                        This will help you be a more focused and legally compliant bike rider.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h4> How can I tell if my helmet is old and I need a
+                                        new one?</h4>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p> For starters, most people are aware that you must replace a helmet after any
+                                        crash
+                                        where your head hit. The foam part of a helmet is made for one-time use, and
+                                        after
+                                        crushing once it is no longer as protective as it was, even if it still looks
+                                        intact. Bear in mind that if the helmet did its job most people would tell you
+                                        that
+                                        they did not even hit their head, or did not hit their head that hard. And the
+                                        thin
+                                        shells on most helmets now tend to hide any dents in the foam. But if you can
+                                        see
+                                        marks on the shell or measure any foam crush at all, replace the helmet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h4> My bike has been in storage is it safe to ride?</h4>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p> For starters, most people are aware that you must replace a helmet after any
+                                        crash
+                                        where your head hit. The foam part of a helmet is made for one-time use, and
+                                        after
+                                        crushing once it is no longer as protective as it was, even if it still looks
+                                        intact. Bear in mind that if the helmet did its job most people would tell you
+                                        that
+                                        they did not even hit their head, or did not hit their head that hard. And the
+                                        thin
+                                        shells on most helmets now tend to hide any dents in the foam. But if you can
+                                        see
+                                        marks on the shell or measure any foam crush at all, replace the helmet4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h4> What rules should I follow when riding my bike?</h4>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>You need to check with your mom and dad about:
+
+                                        where you're allowed to ride your bike
+                                        how far you're allowed to go
+                                        whether you should ride on the sidewalk or in the street. Kids younger than 10
+                                        years should ride on the sidewalk and avoid the street.
+                                        common things that can get in the way like rocks, children or pets, big puddles
+                                        No matter where you ride, daytime riding is the safest. So try to avoid riding
+                                        your bike at dusk and later.
+
+                                        And always keep an eye out for cars and trucks. Even if you're just riding on
+                                        the sidewalk, a car may pull out of its driveway into the path of your bike. If
+                                        you're crossing a busy road, walk your bike across the street.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bikess Prices......... -->
+
+        <section class="container my-5 ">
+            <h1><span>Bikes</span></h1>
 
 
 
-    <footer>
 
+
+            <div class="row my-3 g-4">
+                <div class="col  col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class=" rounded-3  border border-3 m-3 ">
+                            <img src="images/bike-1.png" class="card-img-top w-100 " alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text">The engineer Honda Soichiro founded the Honda Technical Research
+                                Institute near Hamamatsu in 1946 to develop small, efficient internal-combustion
+                                engines. It was incorporated as Honda Motor Company in 1948 and began producing
+                                motorcycles in 1949.</p>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <h2 class="ammount">$200K</h2>
+                            <button class="buy-now"><i class="fas fa-shopping-cart"></i>
+                                &nbsp; Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="border border-3 rounded-3 m-3">
+                            <img src="images/bike-2.png" class="card-img-top w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Motorcycles & Scooters</h5>
+                            <p class="card-text">The engineer Honda Soichiro founded the Honda Technical Research
+                                Institute near Hamamatsu in 1946 to develop small, efficient internal-combustion
+                                engines. It was incorporated as Honda Motor Company in 1948 and began producing
+                                motorcycles in 1949.</p>
+                        </div>
+                        <div class="p-3 d-flex justify-content-between">
+                            <h2 class="ammount">$300K</h2>
+                            <button class="buy-now"><i class="fas fa-shopping-cart"></i>
+                                &nbsp; Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="border border-3 rounded-3 m-3">
+                            <img src="images/bike-3.png" class="card-img-top w-100" alt="..." ">
+                        </div>
+                        <div class=" card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">The engineer Honda Soichiro founded the Honda Technical Research
+                                Institute near Hamamatsu in 1946 to develop small, efficient internal-combustion
+                                engines. It was incorporated as Honda Motor Company in 1948 and began producing
+                                motorcycles in 1949.</p>
+                        </div>
+                        <div class="p-3 d-flex justify-content-between">
+                            <h2 class="ammount">$350K</h2>
+                            <button class="buy-now"><i class="fas fa-shopping-cart"></i>
+                                &nbsp; Buy Now</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <!-- Bikes Section End............ -->
+
+        <!-- HONDESS-Welllpapers -->
+
+        <section class="container my-5 ">
+            <h1 class="text-center">Honda-WellPaper</h1>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center border border-end-0 border-start-0 my-5">
+                            <div class="col-lg-8 col-md-6 col-12">
+                                <div class="w-100">
+                                    <img class="img-fluid" src="images/main_pic.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 my-3">
+                                <div>
+                                    <h2>Honda-WellPaper</h2>
+                                    <h5>We Offer a variety of Honda virtual
+                                        backgrounds for use in video conferences and online meetings..</h5>
+
+
+                                    <div class="d-flex align-items-center">
+
+                                        <div class="btn btn-outline-secondary px-5 py-2"> MORE &nbsp; <i
+                                                class="fas fa-angle-right f4-3"></i>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center border border-end-0 border-start-0 my-5">
+                            <div class="col-lg-8 col-md-6 col-12">
+                                <div class="w-100">
+                                    <img class="img-fluid" src="images/5d.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 my-3">
+                                <div>
+                                    <h2>Honda-Wellpaper</h2>
+                                    <h5>We Offer a variety of Honda virtual
+                                        backgrounds for use in video conferences and online meetings..</h5>
+
+
+                                    <div class="d-flex align-items-center">
+
+                                        <div class="btn btn-outline-secondary px-5 py-2"> MORE &nbsp; <i
+                                                class="fas fa-angle-right f4-3"></i>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center border border-end-0 border-start-0 my-5">
+                            <div class="col-lg-8 col-md-6 col-12">
+                                <div class="w-100">
+                                    <img class="img-fluid" src="images/race.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 my-3">
+                                <div>
+                                    <h2>Honda-Car</h2>
+                                    <h5>We Offer a variety of Honda virtual
+                                        backgrounds for use in video conferences and online meetings..</h5>
+                                    <div class="d-flex align-items-center">
+                                        <div class="btn btn-outline-secondary px-5 py-2"> MORE &nbsp; <i
+                                                class="fas fa-angle-right f4-3"></i>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+
+
+        <!--Wellpaper End.......  -->
+
+
+
+
+
+    </main>
+
+    <!-- Footer-Start -->
+
+    <footer class="text-center py-5 bg-dark text-white ">
+        <p>© 2020 bike. All rights reserved</p>
     </footer>
 
-    <!-- Java Script link  -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS-Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
